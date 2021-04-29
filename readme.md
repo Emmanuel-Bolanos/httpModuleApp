@@ -2,11 +2,11 @@
 
 Instructions:
 
-- [ ] Create a server that is going to be listening requests on port 9000
+- [X] Create a server that is going to be listening requests on port 9000
 
 - [ ] Your Node App should be able to store a number in the path /myNumber. Use body payload to send the value: { myNumber: 123 }. Don't create one number per request, just create or update the current number.
 
-- [ ] You can see the value number with a request to /myNumber
+- [X] You can see the value number with a request to /myNumber
 
 - [ ] If you receive a request from path /myNumber/{multiplier}, you should return in the response the value: myNumber*multiplier. If there is no current value for myNumber, return 400 error.
 
