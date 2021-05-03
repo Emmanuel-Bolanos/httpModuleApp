@@ -8,7 +8,7 @@ Instructions:
 
 - [X] You can see the value number with a request to /myNumber
 
-- [ ] If you receive a request from path /myNumber/{multiplier}, you should return in the response the value: myNumber*multiplier. If there is no current value for myNumber, return 400 error.
+- [X] If you receive a request from path /myNumber/{multiplier}, you should return in the response the value: myNumber*multiplier. If there is no current value for myNumber, return 400 error.
 
 - [X] Delete the current value with a request to /reset.
 
@@ -16,4 +16,4 @@ Instructions:
 
 - [X] If there is no value stored, a 404 should be returned.
 
-- [ ] Any other request should be handled with an error code 404, "resource not found".
+- [X] Any other request should be handled with an error code 404, "resource not found".

@@ -23,7 +23,7 @@ const myRouter = (route) => {
 const server = http.createServer((req, res) => {
   res.setHeader('Content-Type', 'application/JSON');
 
-  const [url, query] = req.url.split('?');
+  const [url] = req.url.split('?');
   let [, ...domain] = url.split('/');
   const route = myRouter(domain.join('/').replace(/\/$/, ""));
 
